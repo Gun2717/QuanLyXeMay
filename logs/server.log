@@ -1,0 +1,834 @@
+2025-11-23 22:45:34 INFO  ServerMain:11 - Starting Motorcycle Shop Server...
+2025-11-23 22:45:34 INFO  DatabaseManager:22 - Database connection established successfully
+2025-11-23 22:45:34 INFO  ServerMain:17 - Database connection successful
+2025-11-23 22:45:34 INFO  SocketServer:32 - Server started on port 9999
+2025-11-23 22:46:11 INFO  SocketServer:40 - New client connected: /127.0.0.1
+2025-11-23 22:46:14 INFO  ClientHandler:50 - Received request: LOGIN
+2025-11-23 22:46:14 INFO  UserService:34 - User logged in: admin
+2025-11-23 22:46:16 INFO  ClientHandler:50 - Received request: GET_ALL_CATEGORIES
+2025-11-23 22:46:16 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-23 22:46:19 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-23 22:46:23 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-23 22:46:29 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-23 22:46:42 INFO  ClientHandler:50 - Received request: SEARCH_PRODUCTS
+2025-11-23 22:47:04 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-23 22:47:05 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-23 22:47:17 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-23 22:48:03 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-23 22:48:13 INFO  ClientHandler:50 - Received request: SEARCH_PRODUCTS
+2025-11-23 22:48:17 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-23 22:48:43 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-23 22:48:58 ERROR ClientHandler:57 - Client connection error
+java.io.EOFException
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3214)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1684)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:509)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:467)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-23 22:48:58 INFO  SocketServer:76 - Client removed. Total clients: 0
+2025-11-23 22:48:58 INFO  ClientHandler:156 - Client disconnected
+2025-11-23 22:49:58 INFO  ServerMain:30 - Shutting down server...
+2025-11-23 22:49:58 INFO  SocketServer:67 - Server stopped
+2025-11-23 22:49:58 INFO  DatabaseManager:56 - Database connection closed
+2025-11-23 22:49:58 INFO  ServerMain:33 - Server shut down complete
+2025-11-24 17:07:24 INFO  ServerMain:11 - Starting Motorcycle Shop Server...
+2025-11-24 17:07:24 INFO  DatabaseManager:22 - Database connection established successfully
+2025-11-24 17:07:24 INFO  ServerMain:17 - Database connection successful
+2025-11-24 17:07:24 INFO  SocketServer:32 - Server started on port 9999
+2025-11-24 17:07:34 INFO  SocketServer:40 - New client connected: /127.0.0.1
+2025-11-24 17:07:43 INFO  ClientHandler:50 - Received request: LOGIN
+2025-11-24 17:07:43 INFO  UserService:34 - User logged in: admin
+2025-11-24 17:07:46 INFO  ClientHandler:50 - Received request: GET_ALL_CATEGORIES
+2025-11-24 17:07:46 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:07:53 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:08:01 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:08:19 INFO  ClientHandler:50 - Received request: LOGIN
+2025-11-24 17:08:19 INFO  UserService:34 - User logged in: manager1
+2025-11-24 17:08:20 INFO  ClientHandler:50 - Received request: GET_ALL_CATEGORIES
+2025-11-24 17:08:20 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:08:23 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:08:28 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:08:44 INFO  ClientHandler:50 - Received request: LOGIN
+2025-11-24 17:08:44 INFO  UserService:34 - User logged in: staff1
+2025-11-24 17:08:45 INFO  ClientHandler:50 - Received request: GET_ALL_CATEGORIES
+2025-11-24 17:08:45 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:08:48 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:08:50 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:08:56 INFO  ClientHandler:50 - Received request: LOGIN
+2025-11-24 17:08:56 INFO  UserService:34 - User logged in: admin
+2025-11-24 17:08:57 INFO  ClientHandler:50 - Received request: GET_ALL_CATEGORIES
+2025-11-24 17:08:57 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:09:05 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:09:12 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:09:39 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:10:13 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:12:03 INFO  ClientHandler:50 - Received request: LOGIN
+2025-11-24 17:12:03 INFO  UserService:34 - User logged in: admin
+2025-11-24 17:12:04 INFO  ClientHandler:50 - Received request: GET_ALL_CATEGORIES
+2025-11-24 17:12:04 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:12:05 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:12:54 ERROR ClientHandler:57 - Client connection error
+java.io.EOFException
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3214)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1684)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:509)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:467)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:12:54 INFO  SocketServer:76 - Client removed. Total clients: 0
+2025-11-24 17:12:54 INFO  ClientHandler:156 - Client disconnected
+2025-11-24 17:12:58 INFO  ServerMain:30 - Shutting down server...
+2025-11-24 17:12:58 INFO  SocketServer:67 - Server stopped
+2025-11-24 17:12:58 INFO  DatabaseManager:56 - Database connection closed
+2025-11-24 17:12:58 INFO  ServerMain:33 - Server shut down complete
+2025-11-24 17:14:42 INFO  ServerMain:11 - Starting Motorcycle Shop Server...
+2025-11-24 17:14:42 INFO  DatabaseManager:22 - Database connection established successfully
+2025-11-24 17:14:42 INFO  ServerMain:17 - Database connection successful
+2025-11-24 17:14:42 INFO  SocketServer:32 - Server started on port 9999
+2025-11-24 17:14:47 INFO  SocketServer:40 - New client connected: /127.0.0.1
+2025-11-24 17:14:49 INFO  ClientHandler:50 - Received request: LOGIN
+2025-11-24 17:14:49 INFO  UserService:34 - User logged in: admin
+2025-11-24 17:14:50 INFO  ClientHandler:50 - Received request: GET_ALL_CATEGORIES
+2025-11-24 17:14:50 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:14:54 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:15:19 ERROR ClientHandler:57 - Client connection error
+java.io.EOFException
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3214)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1684)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:509)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:467)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:15:19 INFO  SocketServer:76 - Client removed. Total clients: 0
+2025-11-24 17:15:19 INFO  ClientHandler:156 - Client disconnected
+2025-11-24 17:15:21 INFO  ServerMain:30 - Shutting down server...
+2025-11-24 17:15:21 INFO  SocketServer:67 - Server stopped
+2025-11-24 17:15:21 INFO  DatabaseManager:56 - Database connection closed
+2025-11-24 17:15:21 INFO  ServerMain:33 - Server shut down complete
+2025-11-24 17:22:18 INFO  ServerMain:11 - Starting Motorcycle Shop Server...
+2025-11-24 17:22:18 INFO  DatabaseManager:22 - Database connection established successfully
+2025-11-24 17:22:18 INFO  ServerMain:17 - Database connection successful
+2025-11-24 17:22:19 INFO  SocketServer:32 - Server started on port 9999
+2025-11-24 17:22:23 INFO  SocketServer:40 - New client connected: /127.0.0.1
+2025-11-24 17:22:25 INFO  ClientHandler:50 - Received request: LOGIN
+2025-11-24 17:22:25 INFO  UserService:34 - User logged in: admin
+2025-11-24 17:22:26 INFO  ClientHandler:50 - Received request: GET_ALL_CATEGORIES
+2025-11-24 17:22:26 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:22:26 ERROR ClientHandler:57 - Client connection error
+java.net.SocketException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:425)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1795)
+	at java.base/java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1289)
+	at java.base/java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1234)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1430)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1181)
+	at java.base/java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1602)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:353)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:22:26 ERROR ClientHandler:158 - Error disconnecting client
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:165)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:371)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:416)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.flush(ObjectOutputStream.java:1831)
+	at java.base/java.io.ObjectOutputStream.flush(ObjectOutputStream.java:724)
+	at java.base/java.io.ObjectOutputStream.close(ObjectOutputStream.java:745)
+	at iuh.fit.se.server.network.ClientHandler.disconnect(ClientHandler.java:153)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:59)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:22:31 INFO  SocketServer:40 - New client connected: /127.0.0.1
+2025-11-24 17:22:31 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:22:33 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:22:35 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:22:36 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:22:46 ERROR ClientHandler:57 - Client connection error
+java.io.EOFException
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3214)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1684)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:509)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:467)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:22:46 INFO  SocketServer:76 - Client removed. Total clients: 1
+2025-11-24 17:22:46 INFO  ClientHandler:156 - Client disconnected
+2025-11-24 17:22:52 INFO  ServerMain:30 - Shutting down server...
+2025-11-24 17:22:52 ERROR ClientHandler:158 - Error disconnecting client
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:165)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:371)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:416)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.flush(ObjectOutputStream.java:1831)
+	at java.base/java.io.ObjectOutputStream.flush(ObjectOutputStream.java:724)
+	at java.base/java.io.ObjectOutputStream.close(ObjectOutputStream.java:745)
+	at iuh.fit.se.server.network.ClientHandler.disconnect(ClientHandler.java:153)
+	at iuh.fit.se.server.network.SocketServer.stop(SocketServer.java:58)
+	at iuh.fit.se.server.ServerMain.lambda$main$0(ServerMain.java:31)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:22:52 INFO  SocketServer:67 - Server stopped
+2025-11-24 17:22:52 INFO  DatabaseManager:56 - Database connection closed
+2025-11-24 17:22:52 INFO  ServerMain:33 - Server shut down complete
+2025-11-24 17:23:48 INFO  ServerMain:11 - Starting Motorcycle Shop Server...
+2025-11-24 17:23:48 INFO  DatabaseManager:22 - Database connection established successfully
+2025-11-24 17:23:48 INFO  ServerMain:17 - Database connection successful
+2025-11-24 17:23:48 INFO  SocketServer:32 - Server started on port 9999
+2025-11-24 17:23:53 INFO  SocketServer:40 - New client connected: /127.0.0.1
+2025-11-24 17:23:55 INFO  ClientHandler:50 - Received request: LOGIN
+2025-11-24 17:23:55 INFO  UserService:34 - User logged in: admin
+2025-11-24 17:23:56 INFO  ClientHandler:50 - Received request: GET_ALL_CATEGORIES
+2025-11-24 17:23:56 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:23:56 ERROR ClientHandler:57 - Client connection error
+java.net.SocketException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:425)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1795)
+	at java.base/java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1289)
+	at java.base/java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1234)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1430)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1181)
+	at java.base/java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1602)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:353)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:23:56 INFO  SocketServer:40 - New client connected: /127.0.0.1
+2025-11-24 17:23:56 ERROR ClientHandler:158 - Error disconnecting client
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:165)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:371)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:416)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.flush(ObjectOutputStream.java:1831)
+	at java.base/java.io.ObjectOutputStream.flush(ObjectOutputStream.java:724)
+	at java.base/java.io.ObjectOutputStream.close(ObjectOutputStream.java:745)
+	at iuh.fit.se.server.network.ClientHandler.disconnect(ClientHandler.java:153)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:59)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:23:56 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:23:56 ERROR ClientHandler:57 - Client connection error
+java.net.SocketException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:425)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1795)
+	at java.base/java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1289)
+	at java.base/java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1234)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1430)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1181)
+	at java.base/java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1602)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:353)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:23:56 ERROR ClientHandler:158 - Error disconnecting client
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:165)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:371)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:416)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.flush(ObjectOutputStream.java:1831)
+	at java.base/java.io.ObjectOutputStream.flush(ObjectOutputStream.java:724)
+	at java.base/java.io.ObjectOutputStream.close(ObjectOutputStream.java:745)
+	at iuh.fit.se.server.network.ClientHandler.disconnect(ClientHandler.java:153)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:59)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:24:05 INFO  SocketServer:40 - New client connected: /127.0.0.1
+2025-11-24 17:24:05 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:24:06 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:24:06 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:24:12 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:24:15 INFO  ClientHandler:50 - Received request: GET_ORDER_BY_ID
+2025-11-24 17:24:23 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:24:24 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:24:24 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:24:25 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:24:26 INFO  ClientHandler:50 - Received request: GET_ALL_USERS
+2025-11-24 17:24:53 INFO  ClientHandler:50 - Received request: GET_ALL_USERS
+2025-11-24 17:25:12 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:25:13 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:25:19 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:25:23 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:25:26 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:25:30 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:26:20 INFO  ClientHandler:50 - Received request: LOGIN
+2025-11-24 17:26:20 INFO  UserService:34 - User logged in: manager1
+2025-11-24 17:26:21 INFO  ClientHandler:50 - Received request: GET_ALL_CATEGORIES
+2025-11-24 17:26:21 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:26:21 ERROR ClientHandler:57 - Client connection error
+java.net.SocketException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:425)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.writeBlockHeader(ObjectOutputStream.java:1899)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1884)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1795)
+	at java.base/java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1599)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:353)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:26:21 ERROR ClientHandler:158 - Error disconnecting client
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:165)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:371)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:416)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.writeBlockHeader(ObjectOutputStream.java:1899)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1884)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.flush(ObjectOutputStream.java:1831)
+	at java.base/java.io.ObjectOutputStream.flush(ObjectOutputStream.java:724)
+	at java.base/java.io.ObjectOutputStream.close(ObjectOutputStream.java:745)
+	at iuh.fit.se.server.network.ClientHandler.disconnect(ClientHandler.java:153)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:59)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:26:21 INFO  SocketServer:40 - New client connected: /127.0.0.1
+2025-11-24 17:26:21 INFO  SocketServer:40 - New client connected: /127.0.0.1
+2025-11-24 17:26:21 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:26:21 INFO  ClientHandler:50 - Received request: GET_ALL_USERS
+2025-11-24 17:26:25 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:26:27 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:26:29 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:26:31 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:26:34 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:26:39 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:26:41 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:26:49 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:26:54 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:26:56 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:26:58 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:27:08 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:27:27 INFO  ClientHandler:50 - Received request: LOGIN
+2025-11-24 17:27:27 INFO  UserService:34 - User logged in: staff1
+2025-11-24 17:27:28 INFO  ClientHandler:50 - Received request: GET_ALL_CATEGORIES
+2025-11-24 17:27:28 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:27:28 ERROR ClientHandler:57 - Client connection error
+java.net.SocketException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:425)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1795)
+	at java.base/java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1605)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:353)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:27:28 ERROR ClientHandler:158 - Error disconnecting client
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:165)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:371)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:416)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.flush(ObjectOutputStream.java:1831)
+	at java.base/java.io.ObjectOutputStream.flush(ObjectOutputStream.java:724)
+	at java.base/java.io.ObjectOutputStream.close(ObjectOutputStream.java:745)
+	at iuh.fit.se.server.network.ClientHandler.disconnect(ClientHandler.java:153)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:59)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:27:28 INFO  SocketServer:40 - New client connected: /127.0.0.1
+2025-11-24 17:27:28 INFO  SocketServer:40 - New client connected: /127.0.0.1
+2025-11-24 17:27:28 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:27:28 INFO  ClientHandler:50 - Received request: GET_ALL_USERS
+2025-11-24 17:27:34 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:27:36 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:27:37 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:27:39 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:27:40 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:27:41 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:27:43 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:27:45 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:27:46 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:27:48 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:27:50 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:27:51 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:27:51 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:27:52 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:27:52 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:27:53 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:27:55 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:27:56 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:27:56 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:27:57 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:27:57 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:27:57 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:27:57 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:27:58 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:27:58 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:28:03 ERROR ClientHandler:57 - Client connection error
+java.io.EOFException
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3214)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1684)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:509)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:467)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:28:03 INFO  SocketServer:76 - Client removed. Total clients: 6
+2025-11-24 17:28:03 INFO  ClientHandler:156 - Client disconnected
+2025-11-24 17:28:04 INFO  ClientHandler:50 - Received request: LOGIN
+2025-11-24 17:28:04 INFO  UserService:34 - User logged in: admin
+2025-11-24 17:28:06 INFO  ClientHandler:50 - Received request: LOGIN
+2025-11-24 17:28:06 INFO  UserService:34 - User logged in: admin
+2025-11-24 17:28:06 INFO  ClientHandler:50 - Received request: GET_ALL_CATEGORIES
+2025-11-24 17:28:08 INFO  ClientHandler:50 - Received request: LOGIN
+2025-11-24 17:28:08 INFO  UserService:34 - User logged in: admin
+2025-11-24 17:28:12 INFO  ClientHandler:50 - Received request: LOGIN
+2025-11-24 17:28:12 INFO  UserService:34 - User logged in: admin
+2025-11-24 17:28:13 INFO  ClientHandler:50 - Received request: GET_ALL_CATEGORIES
+2025-11-24 17:28:15 INFO  ClientHandler:50 - Received request: LOGIN
+2025-11-24 17:28:15 INFO  UserService:34 - User logged in: admin
+2025-11-24 17:28:21 ERROR ClientHandler:57 - Client connection error
+java.io.EOFException
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3214)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1684)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:509)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:467)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:28:21 INFO  SocketServer:76 - Client removed. Total clients: 5
+2025-11-24 17:28:21 INFO  ClientHandler:156 - Client disconnected
+2025-11-24 17:28:22 ERROR ClientHandler:57 - Client connection error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:328)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:961)
+	at java.base/java.io.ObjectInputStream$PeekInputStream.peek(ObjectInputStream.java:2875)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peek(ObjectInputStream.java:3202)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3212)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1684)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:509)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:467)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:28:22 INFO  SocketServer:76 - Client removed. Total clients: 4
+2025-11-24 17:28:22 INFO  ClientHandler:156 - Client disconnected
+2025-11-24 17:28:27 INFO  SocketServer:40 - New client connected: /127.0.0.1
+2025-11-24 17:28:28 INFO  ClientHandler:50 - Received request: LOGIN
+2025-11-24 17:28:28 INFO  UserService:34 - User logged in: admin
+2025-11-24 17:28:29 INFO  ClientHandler:50 - Received request: GET_ALL_CATEGORIES
+2025-11-24 17:28:29 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:28:29 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:28:29 ERROR ClientHandler:57 - Client connection error
+java.net.SocketException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:425)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1795)
+	at java.base/java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1605)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:353)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:28:29 ERROR ClientHandler:158 - Error disconnecting client
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:165)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:371)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:416)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.flush(ObjectOutputStream.java:1831)
+	at java.base/java.io.ObjectOutputStream.flush(ObjectOutputStream.java:724)
+	at java.base/java.io.ObjectOutputStream.close(ObjectOutputStream.java:745)
+	at iuh.fit.se.server.network.ClientHandler.disconnect(ClientHandler.java:153)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:59)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:28:29 INFO  SocketServer:40 - New client connected: /127.0.0.1
+2025-11-24 17:28:29 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:28:29 INFO  ClientHandler:50 - Received request: GET_ALL_USERS
+2025-11-24 17:28:29 ERROR ClientHandler:57 - Client connection error
+java.net.SocketException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:425)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1795)
+	at java.base/java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1289)
+	at java.base/java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1234)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1430)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1181)
+	at java.base/java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1602)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:353)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:28:29 ERROR ClientHandler:158 - Error disconnecting client
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:165)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:371)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:416)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.flush(ObjectOutputStream.java:1831)
+	at java.base/java.io.ObjectOutputStream.flush(ObjectOutputStream.java:724)
+	at java.base/java.io.ObjectOutputStream.close(ObjectOutputStream.java:745)
+	at iuh.fit.se.server.network.ClientHandler.disconnect(ClientHandler.java:153)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:59)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:28:35 INFO  SocketServer:40 - New client connected: /127.0.0.1
+2025-11-24 17:28:35 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:28:35 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:28:36 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:28:37 INFO  ClientHandler:50 - Received request: GET_ALL_USERS
+2025-11-24 17:28:40 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:28:40 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:28:57 ERROR ClientHandler:57 - Client connection error
+java.io.EOFException
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3214)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1684)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:509)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:467)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:28:57 INFO  SocketServer:76 - Client removed. Total clients: 6
+2025-11-24 17:28:57 INFO  ClientHandler:156 - Client disconnected
+2025-11-24 17:28:58 INFO  ServerMain:30 - Shutting down server...
+2025-11-24 17:28:58 ERROR ClientHandler:158 - Error disconnecting client
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:165)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:371)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:416)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.flush(ObjectOutputStream.java:1831)
+	at java.base/java.io.ObjectOutputStream.flush(ObjectOutputStream.java:724)
+	at java.base/java.io.ObjectOutputStream.close(ObjectOutputStream.java:745)
+	at iuh.fit.se.server.network.ClientHandler.disconnect(ClientHandler.java:153)
+	at iuh.fit.se.server.network.SocketServer.stop(SocketServer.java:58)
+	at iuh.fit.se.server.ServerMain.lambda$main$0(ServerMain.java:31)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:28:58 ERROR ClientHandler:158 - Error disconnecting client
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:165)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:371)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:416)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.flush(ObjectOutputStream.java:1831)
+	at java.base/java.io.ObjectOutputStream.flush(ObjectOutputStream.java:724)
+	at java.base/java.io.ObjectOutputStream.close(ObjectOutputStream.java:745)
+	at iuh.fit.se.server.network.ClientHandler.disconnect(ClientHandler.java:153)
+	at iuh.fit.se.server.network.SocketServer.stop(SocketServer.java:58)
+	at iuh.fit.se.server.ServerMain.lambda$main$0(ServerMain.java:31)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:28:58 ERROR ClientHandler:158 - Error disconnecting client
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:165)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:371)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:416)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.writeBlockHeader(ObjectOutputStream.java:1899)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1884)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.flush(ObjectOutputStream.java:1831)
+	at java.base/java.io.ObjectOutputStream.flush(ObjectOutputStream.java:724)
+	at java.base/java.io.ObjectOutputStream.close(ObjectOutputStream.java:745)
+	at iuh.fit.se.server.network.ClientHandler.disconnect(ClientHandler.java:153)
+	at iuh.fit.se.server.network.SocketServer.stop(SocketServer.java:58)
+	at iuh.fit.se.server.ServerMain.lambda$main$0(ServerMain.java:31)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:28:58 ERROR ClientHandler:158 - Error disconnecting client
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:165)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:371)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:416)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.flush(ObjectOutputStream.java:1831)
+	at java.base/java.io.ObjectOutputStream.flush(ObjectOutputStream.java:724)
+	at java.base/java.io.ObjectOutputStream.close(ObjectOutputStream.java:745)
+	at iuh.fit.se.server.network.ClientHandler.disconnect(ClientHandler.java:153)
+	at iuh.fit.se.server.network.SocketServer.stop(SocketServer.java:58)
+	at iuh.fit.se.server.ServerMain.lambda$main$0(ServerMain.java:31)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:28:58 ERROR ClientHandler:158 - Error disconnecting client
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:165)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:371)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:416)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.flush(ObjectOutputStream.java:1831)
+	at java.base/java.io.ObjectOutputStream.flush(ObjectOutputStream.java:724)
+	at java.base/java.io.ObjectOutputStream.close(ObjectOutputStream.java:745)
+	at iuh.fit.se.server.network.ClientHandler.disconnect(ClientHandler.java:153)
+	at iuh.fit.se.server.network.SocketServer.stop(SocketServer.java:58)
+	at iuh.fit.se.server.ServerMain.lambda$main$0(ServerMain.java:31)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:28:58 ERROR ClientHandler:158 - Error disconnecting client
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:165)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:371)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:416)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.flush(ObjectOutputStream.java:1831)
+	at java.base/java.io.ObjectOutputStream.flush(ObjectOutputStream.java:724)
+	at java.base/java.io.ObjectOutputStream.close(ObjectOutputStream.java:745)
+	at iuh.fit.se.server.network.ClientHandler.disconnect(ClientHandler.java:153)
+	at iuh.fit.se.server.network.SocketServer.stop(SocketServer.java:58)
+	at iuh.fit.se.server.ServerMain.lambda$main$0(ServerMain.java:31)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:28:58 INFO  SocketServer:67 - Server stopped
+2025-11-24 17:28:58 INFO  DatabaseManager:56 - Database connection closed
+2025-11-24 17:28:58 INFO  ServerMain:33 - Server shut down complete
+2025-11-24 17:33:30 INFO  ServerMain:11 - Starting Motorcycle Shop Server...
+2025-11-24 17:33:30 INFO  DatabaseManager:22 - Database connection established successfully
+2025-11-24 17:33:30 INFO  ServerMain:17 - Database connection successful
+2025-11-24 17:33:30 INFO  SocketServer:32 - Server started on port 9999
+2025-11-24 17:33:33 INFO  SocketServer:40 - New client connected: /127.0.0.1
+2025-11-24 17:33:34 INFO  ClientHandler:50 - Received request: LOGIN
+2025-11-24 17:33:35 INFO  UserService:34 - User logged in: admin
+2025-11-24 17:33:35 INFO  ClientHandler:50 - Received request: GET_ALL_CATEGORIES
+2025-11-24 17:33:36 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:33:36 INFO  SocketServer:40 - New client connected: /127.0.0.1
+2025-11-24 17:33:36 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:33:36 ERROR ClientHandler:57 - Client connection error
+java.net.SocketException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:425)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1795)
+	at java.base/java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1289)
+	at java.base/java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1234)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1430)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1181)
+	at java.base/java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1602)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:353)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:33:36 ERROR ClientHandler:158 - Error disconnecting client
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:165)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:371)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:416)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.flush(ObjectOutputStream.java:1831)
+	at java.base/java.io.ObjectOutputStream.flush(ObjectOutputStream.java:724)
+	at java.base/java.io.ObjectOutputStream.close(ObjectOutputStream.java:745)
+	at iuh.fit.se.server.network.ClientHandler.disconnect(ClientHandler.java:153)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:59)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:33:36 ERROR ClientHandler:57 - Client connection error
+java.net.SocketException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:425)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1795)
+	at java.base/java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1289)
+	at java.base/java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1234)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1430)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1181)
+	at java.base/java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1602)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:353)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:33:36 ERROR ClientHandler:158 - Error disconnecting client
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:165)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:371)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:416)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.flush(ObjectOutputStream.java:1831)
+	at java.base/java.io.ObjectOutputStream.flush(ObjectOutputStream.java:724)
+	at java.base/java.io.ObjectOutputStream.close(ObjectOutputStream.java:745)
+	at iuh.fit.se.server.network.ClientHandler.disconnect(ClientHandler.java:153)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:59)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:33:55 INFO  SocketServer:40 - New client connected: /127.0.0.1
+2025-11-24 17:33:55 INFO  ClientHandler:50 - Received request: GET_ALL_PRODUCTS
+2025-11-24 17:33:56 INFO  ClientHandler:50 - Received request: GET_ALL_CUSTOMERS
+2025-11-24 17:33:57 INFO  ClientHandler:50 - Received request: GET_ALL_ORDERS
+2025-11-24 17:34:26 INFO  ServerMain:30 - Shutting down server...
+2025-11-24 17:34:26 ERROR ClientHandler:158 - Error disconnecting client
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:165)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:371)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:416)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.flush(ObjectOutputStream.java:1831)
+	at java.base/java.io.ObjectOutputStream.flush(ObjectOutputStream.java:724)
+	at java.base/java.io.ObjectOutputStream.close(ObjectOutputStream.java:745)
+	at iuh.fit.se.server.network.ClientHandler.disconnect(ClientHandler.java:153)
+	at iuh.fit.se.server.network.SocketServer.stop(SocketServer.java:58)
+	at iuh.fit.se.server.ServerMain.lambda$main$0(ServerMain.java:31)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:34:26 ERROR ClientHandler:158 - Error disconnecting client
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:165)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:371)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:416)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1886)
+	at java.base/java.io.ObjectOutputStream$BlockDataOutputStream.flush(ObjectOutputStream.java:1831)
+	at java.base/java.io.ObjectOutputStream.flush(ObjectOutputStream.java:724)
+	at java.base/java.io.ObjectOutputStream.close(ObjectOutputStream.java:745)
+	at iuh.fit.se.server.network.ClientHandler.disconnect(ClientHandler.java:153)
+	at iuh.fit.se.server.network.SocketServer.stop(SocketServer.java:58)
+	at iuh.fit.se.server.ServerMain.lambda$main$0(ServerMain.java:31)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:34:26 ERROR ClientHandler:57 - Client connection error
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:253)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:332)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:961)
+	at java.base/java.io.ObjectInputStream$PeekInputStream.peek(ObjectInputStream.java:2875)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peek(ObjectInputStream.java:3202)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3212)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1684)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:509)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:467)
+	at iuh.fit.se.server.network.ClientHandler.run(ClientHandler.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-24 17:34:26 INFO  SocketServer:76 - Client removed. Total clients: 2
+2025-11-24 17:34:26 INFO  ClientHandler:156 - Client disconnected
+2025-11-24 17:34:26 INFO  SocketServer:76 - Client removed. Total clients: 2
+2025-11-24 17:34:26 INFO  ClientHandler:156 - Client disconnected
+2025-11-24 17:42:07 INFO  ServerMain:11 - Starting Motorcycle Shop Server...
+2025-11-24 17:42:07 INFO  DatabaseManager:22 - Database connection established successfully
+2025-11-24 17:42:07 INFO  ServerMain:17 - Database connection successful
+2025-11-24 17:42:07 INFO  SocketServer:32 - Server started on port 9999
+2025-11-24 17:42:12 INFO  SocketServer:40 - New client connected: /127.0.0.1
+2025-11-24 17:42:12 INFO  ClientHandler:47 - Client handler initialized for: /127.0.0.1
+2025-11-24 17:42:14 INFO  ClientHandler:66 - Received request: LOGIN from /127.0.0.1
+2025-11-24 17:42:14 INFO  UserService:34 - User logged in: admin
+2025-11-24 17:42:15 INFO  ClientHandler:66 - Received request: GET_ALL_CATEGORIES from /127.0.0.1
+2025-11-24 17:42:15 INFO  ClientHandler:66 - Received request: GET_ALL_PRODUCTS from /127.0.0.1
+2025-11-24 17:42:15 INFO  ClientHandler:66 - Received request: GET_ALL_USERS from /127.0.0.1
+2025-11-24 17:42:15 INFO  ClientHandler:66 - Received request: GET_ALL_ORDERS from /127.0.0.1
+2025-11-24 17:42:15 INFO  ClientHandler:66 - Received request: GET_ALL_CUSTOMERS from /127.0.0.1
+2025-11-24 17:42:18 INFO  ClientHandler:66 - Received request: GET_ALL_PRODUCTS from /127.0.0.1
+2025-11-24 17:42:19 INFO  ClientHandler:66 - Received request: GET_ALL_CUSTOMERS from /127.0.0.1
+2025-11-24 17:42:19 INFO  ClientHandler:66 - Received request: GET_ALL_ORDERS from /127.0.0.1
+2025-11-24 17:42:21 INFO  ClientHandler:66 - Received request: GET_ALL_CUSTOMERS from /127.0.0.1
+2025-11-24 17:42:21 INFO  ClientHandler:66 - Received request: GET_ALL_PRODUCTS from /127.0.0.1
+2025-11-24 17:42:28 INFO  ClientHandler:66 - Received request: GET_ALL_CUSTOMERS from /127.0.0.1
+2025-11-24 17:42:28 INFO  ClientHandler:66 - Received request: GET_ALL_PRODUCTS from /127.0.0.1
+2025-11-24 17:42:47 INFO  ClientHandler:66 - Received request: GET_ALL_CUSTOMERS from /127.0.0.1
+2025-11-24 17:42:47 INFO  ClientHandler:66 - Received request: GET_ALL_PRODUCTS from /127.0.0.1
+2025-11-24 17:43:01 INFO  ClientHandler:66 - Received request: GET_ALL_CUSTOMERS from /127.0.0.1
+2025-11-24 17:43:01 INFO  ClientHandler:66 - Received request: GET_ALL_PRODUCTS from /127.0.0.1
+2025-11-24 17:43:23 INFO  ClientHandler:66 - Received request: GET_ORDER_BY_ID from /127.0.0.1
+2025-11-24 17:43:28 INFO  ClientHandler:66 - Received request: GET_ORDER_BY_ID from /127.0.0.1
+2025-11-24 17:43:35 INFO  ClientHandler:66 - Received request: GET_ALL_CUSTOMERS from /127.0.0.1
+2025-11-24 17:43:35 INFO  ClientHandler:66 - Received request: GET_ALL_PRODUCTS from /127.0.0.1
+2025-11-24 17:44:06 INFO  ClientHandler:66 - Received request: GET_ALL_CUSTOMERS from /127.0.0.1
+2025-11-24 17:44:06 INFO  ClientHandler:66 - Received request: GET_ALL_PRODUCTS from /127.0.0.1
+2025-11-24 17:44:45 INFO  ServerMain:30 - Shutting down server...
+2025-11-24 17:44:45 INFO  SocketServer:76 - Client removed. Total clients: 0
+2025-11-24 17:44:45 INFO  ClientHandler:212 - Client disconnected: /127.0.0.1
